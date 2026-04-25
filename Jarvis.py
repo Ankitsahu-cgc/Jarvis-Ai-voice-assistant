@@ -43,9 +43,7 @@ for package in ["googletrans", "translators", "httpx", "h11", "urllib3-future"]:
         print(f"{package} is not installed.")
 
 load_dotenv()  # Load environment variables from .env file
-openai.api_key = "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"
-os.getenv("OPENAI_API_KEY")
-
+#OPENAI Key
 if not openai.api_key:
     print("Error: OpenAI API key not found.")
 else:
